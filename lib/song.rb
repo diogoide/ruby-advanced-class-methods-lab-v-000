@@ -63,10 +63,7 @@ class Song
   end
 
   def self.destroy_all
-    self.all.each do |method|
-      remove_method(method)
-    end
-    self.all = []
+    self.all.clear
   end
 
 
