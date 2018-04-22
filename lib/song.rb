@@ -48,7 +48,7 @@ class Song
     artist_name = split_filename[0]
     name[0] = split_filename[1].split(".").pop
     name = name[0]
-    binding.binding.pry
+    binding.pry
   end
 
 
